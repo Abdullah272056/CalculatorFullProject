@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     android:orientation="vertical"
-    android:gravity="center"
-    android:weightSum="8"
+    android:background="@drawable/background"
+    android:weightSum="6"
     tools:context=".MainActivity">
 
 
     <LinearLayout
-        android:id="@+id/displayLayoutId"
         android:gravity="center"
         android:layout_margin="3dp"
         android:layout_width="match_parent"
@@ -38,7 +38,6 @@
         android:layout_height="0dp">
 
         <Button
-            android:id="@+id/on_offButtonId"
             android:textColor="#FC0303"
             android:layout_margin="3dp"
             android:background="@drawable/button_background"
